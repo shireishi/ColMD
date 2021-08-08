@@ -4,6 +4,7 @@
   "description": "A collaborative markdown note-taking program.",
   "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "console.log(\"Hello World\");"
   },
   "repository": {
