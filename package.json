@@ -1,0 +1,22 @@
+{
+  "name": "colmd",
+  "version": "0.0.1",
+  "description": "A collaborative markdown note-taking program.",
+  "main": "main.js",
+  "scripts": {
+    "test": "console.log(\"Hello World\");"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shireishi/ColMD.git"
+  },
+  "keywords": [
+    "colmd"
+  ],
+  "author": "ElaraJade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shireishi/ColMD/issues"
+  },
+  "homepage": "https://github.com/shireishi/ColMD#readme"
+}
