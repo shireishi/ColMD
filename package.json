@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/shireishi/ColMD/issues"
   },
-  "homepage": "https://github.com/shireishi/ColMD#readme"
+  "homepage": "https://github.com/shireishi/ColMD#readme",
+  "devDependencies": {
+    "electron": "^13.1.8"
+  }
 }
