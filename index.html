@@ -6,14 +6,18 @@
         <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
         <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
 
-        <script src="src/test.js"></script>
+        <link rel="stylesheet" href="resources/index.css">
         <script src="./preload.js"></script>
     </head>
 
     <body>
-        <h1>Hello World!</h1>
-        We are using Node.js <span id="node-version"></span>,
-        Chromium <span id="chrome-version"></span>,
-        and Electron <span id="electron-version"></span>.
+        <h1 id="header">Welcome to ColMD!</h1>
+        <div class="header-box">
+            Welcome to <a href="http://github.com/shireishi/ColMD.git">ColMD</a>.
+            
+            We are using Node.js <span id="node-version"></span>,
+            Chromium <span id="chrome-version"></span>,
+            and Electron <span id="electron-version"></span>.
+        </div>
     </body>
 </html>

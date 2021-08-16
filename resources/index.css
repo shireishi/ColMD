@@ -1,0 +1,37 @@
+
+@font-face {
+    font-family: SanFrancisco;
+    src: url("/home/elarajade/.fonts/System San Francisco Display Regular.ttf"),
+    local("SanFrancisco");
+}
+
+:root {
+    --foreground-color: #000000;
+    --foreground-alt: #333333;
+    --background-color: #FFFFFF;
+    --background-alt: #dddddd;
+}
+
+* {
+    font-family: SanFrancisco;
+}
+
+#header {
+    color: var(--foreground-alt);
+    text-align: center; 
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+}
+
+.header-box {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: var(--background-alt);
+    padding: 10px;
+    width: 100%;
+    left: 50%;
+    top: 80px;
+    text-align: center;
+    font-size: 12px;
+}
